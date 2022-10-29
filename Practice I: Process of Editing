@@ -1,0 +1,16 @@
+//git is local (on pc), github is networked
+
+git pull origin main
+//gets code from main
+
+git add -p
+//adds code to the actual commit to be packaged
+
+git commit -m "something.java"
+//names and packages the commit to be sent to main
+
+git pull
+//obtains the programs from other users to avoid overwriting or meshing errors
+
+guit push origin main
+//updates main with the commit's code
